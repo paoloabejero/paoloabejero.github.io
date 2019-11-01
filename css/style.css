@@ -1,0 +1,97 @@
+@media (max-width: 768px){
+    .navbar {
+           display:block;
+           text-align:center;
+    }
+}
+
+.navbar-toggler {
+	border: none;
+	outline: none;
+}
+
+.active{
+	font-weight: bold;
+}
+
+a{
+	transition: 0.3s;
+}
+
+button:focus{
+	outline:0;
+}
+
+img{
+	max-width: 100%;
+}
+
+.col-paoloabejero{
+	position: relative;
+}
+
+.overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	opacity: 0;
+	transition: 0.3s;
+}
+
+.overlay:hover{
+	opacity: 1;
+}
+
+#paoloabejero{
+	margin-top: 36px;
+	margin-bottom: 18px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 24px;
+  font-weight: bold;
+  color: grey;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 24px;
+  font-weight: bold;
+  color: grey;
+}
+
+.carousel-indicators li {
+    background-color: grey; 
+}
+.carousel-indicators .active {
+    background-color: black;
+}
+
+#magic-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 4px;
+  background: #fe4902;
+}
+
+
+/*testers
+.container{
+	background: grey;
+}*/
