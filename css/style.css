@@ -46,8 +46,13 @@ img{
 	opacity: 1;
 }
 
-#paoloabejero{
-	margin-top: 18px;
+.paoloabejero-home{
+  margin-top: 18px;
+  margin-bottom: 12px;
+}
+
+.paoloabejero{
+	margin-top: 61.8px;
 	margin-bottom: 12px;
 }
 
@@ -93,3 +98,32 @@ img{
 footer{
   padding: 24px;
 }
+
+.profile{
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.content{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 58px;
+  padding-right: 58px;
+}
+
+#grad-pic{
+  padding-bottom: 24px;
+}
+
+#skills{
+  padding-bottom: 12px
+}
+
+#skills b{
+  font-size: 18px;
+}
+
+/*testers
+.container{
+	background: grey;
+}*/
