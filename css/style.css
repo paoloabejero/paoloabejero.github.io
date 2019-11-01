@@ -47,8 +47,8 @@ img{
 }
 
 #paoloabejero{
-	margin-top: 36px;
-	margin-bottom: 18px;
+	margin-top: 18px;
+	margin-bottom: 12px;
 }
 
 .carousel-control-prev-icon,
@@ -90,8 +90,6 @@ img{
   background: #fe4902;
 }
 
-
-/*testers
-.container{
-	background: grey;
-}*/
+footer{
+  padding: 24px;
+}
