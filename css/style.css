@@ -111,6 +111,14 @@ footer{
   padding-right: 58px;
 }
 
+.col-portfolio{
+  padding: 3px;
+}
+
+.portfolio-header{
+  padding-bottom: 28px;
+}
+
 #grad-pic{
   padding-bottom: 24px;
 }
